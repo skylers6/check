@@ -37,7 +37,7 @@ jobs:
           SC3_PUSH_KEY: ${{ secrets.SC3_PUSH_KEY }}
           BROWSE_ENABLED: ${{ secrets.BROWSE_ENABLED }}
         run: |
-          python main.py
+          python linuxdo.py
 
       - name: Send Telegram Notification
         env:
